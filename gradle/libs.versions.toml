@@ -1,0 +1,11 @@
+[versions]
+gradle-versions = "0.51.0"
+lombok = "1.18.34"
+version-catalog-update = "0.8.4"
+
+[libraries]
+lombok = { module = "org.projectlombok:lombok", version.ref = "lombok" }
+
+[plugins]
+gradle-versions = { id = "com.github.ben-manes.versions", version.ref = "gradle-versions" }
+version-catalog-update = { id = "nl.littlerobots.version-catalog-update", version.ref = "version-catalog-update" }
